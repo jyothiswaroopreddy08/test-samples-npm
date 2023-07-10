@@ -1,5 +1,9 @@
-NODE_MODULES_BIN := ./node_modules
+install:
+    npm install
 
-RUN_CMD = 'node index.js'
+run:
+    npm run start
 
-run: $(RUN_CMD)
+package:
+    npm run package
+
