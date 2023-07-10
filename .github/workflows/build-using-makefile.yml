@@ -17,7 +17,7 @@ jobs:
           node-version: '14'
           
       - name: Install Dependencies
-        run: make install
+        run: make -s install
         
       - name: Run index.js
-        run: make run 
+        run: make -s run 
