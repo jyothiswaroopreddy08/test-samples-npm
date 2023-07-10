@@ -20,4 +20,4 @@ jobs:
         run: npm install
         
       - name: Run index.js
-        run: make run
+        run: make run -f ${makefile}
